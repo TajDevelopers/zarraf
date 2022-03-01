@@ -213,7 +213,7 @@ export default function CoinsTable() {
 
         {/* Comes from @material-ui/lab */}
         <Pagination
-          count={(handleSearch()?.length / 10).toFixed(0).toString}
+          count={(handleSearch()?.length / 10).toFixed(0)}
           style={{
             
             padding: 20,
@@ -285,4 +285,3 @@ export default function CoinsTable() {
 
 
 
-console.log("nothing")
